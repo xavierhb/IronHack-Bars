@@ -19,6 +19,14 @@
 		8CD9FC5E1941AC0C00D30AC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD9FC461941AC0C00D30AC4 /* UIKit.framework */; };
 		8CD9FC661941AC0C00D30AC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9FC641941AC0C00D30AC4 /* InfoPlist.strings */; };
 		8CD9FC681941AC0C00D30AC4 /* BarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9FC671941AC0C00D30AC4 /* BarsTests.m */; };
+		8CD9FC741941AC4C00D30AC4 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9FC731941AC4C00D30AC4 /* Bar.m */; };
+		8CD9FC771941B5F400D30AC4 /* Bars.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9FC761941B5F400D30AC4 /* Bars.m */; };
+		8CD9FC791941B9EC00D30AC4 /* barsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9FC781941B9EC00D30AC4 /* barsList.plist */; };
+		8CD9FC7B1941BB3100D30AC4 /* BarsListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9FC7A1941BB3100D30AC4 /* BarsListTest.m */; };
+		8CD9FC7E1941BD9100D30AC4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9FC7D1941BD9100D30AC4 /* Storyboard.storyboard */; };
+		8CD9FC821941BDD800D30AC4 /* BarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9FC811941BDD800D30AC4 /* BarsViewController.m */; };
+		8CD9FC851941C13C00D30AC4 /* BarDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9FC841941C13C00D30AC4 /* BarDetailViewController.m */; };
+		8CD9FC871941C20400D30AC4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9FC861941C20400D30AC4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,18 @@
 		8CD9FC631941AC0C00D30AC4 /* BarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarsTests-Info.plist"; sourceTree = "<group>"; };
 		8CD9FC651941AC0C00D30AC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8CD9FC671941AC0C00D30AC4 /* BarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarsTests.m; sourceTree = "<group>"; };
+		8CD9FC721941AC4C00D30AC4 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		8CD9FC731941AC4C00D30AC4 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		8CD9FC751941B5F400D30AC4 /* Bars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bars.h; sourceTree = "<group>"; };
+		8CD9FC761941B5F400D30AC4 /* Bars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bars.m; sourceTree = "<group>"; };
+		8CD9FC781941B9EC00D30AC4 /* barsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = barsList.plist; sourceTree = "<group>"; };
+		8CD9FC7A1941BB3100D30AC4 /* BarsListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarsListTest.m; sourceTree = "<group>"; };
+		8CD9FC7D1941BD9100D30AC4 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		8CD9FC801941BDD800D30AC4 /* BarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarsViewController.h; sourceTree = "<group>"; };
+		8CD9FC811941BDD800D30AC4 /* BarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarsViewController.m; sourceTree = "<group>"; };
+		8CD9FC831941C13C00D30AC4 /* BarDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarDetailViewController.h; sourceTree = "<group>"; };
+		8CD9FC841941C13C00D30AC4 /* BarDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarDetailViewController.m; sourceTree = "<group>"; };
+		8CD9FC861941C20400D30AC4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +97,7 @@
 		8CD9FC361941AC0C00D30AC4 = {
 			isa = PBXGroup;
 			children = (
+				8CD9FC861941C20400D30AC4 /* README.md */,
 				8CD9FC481941AC0C00D30AC4 /* Bars */,
 				8CD9FC611941AC0C00D30AC4 /* BarsTests */,
 				8CD9FC411941AC0C00D30AC4 /* Frameworks */,
@@ -107,6 +128,9 @@
 		8CD9FC481941AC0C00D30AC4 /* Bars */ = {
 			isa = PBXGroup;
 			children = (
+				8CD9FC7F1941BDBC00D30AC4 /* Controllers */,
+				8CD9FC7C1941BD7D00D30AC4 /* Views */,
+				8CD9FC711941AC3800D30AC4 /* Models */,
 				8CD9FC511941AC0C00D30AC4 /* AppDelegate.h */,
 				8CD9FC521941AC0C00D30AC4 /* AppDelegate.m */,
 				8CD9FC541941AC0C00D30AC4 /* Images.xcassets */,
@@ -131,6 +155,7 @@
 			children = (
 				8CD9FC671941AC0C00D30AC4 /* BarsTests.m */,
 				8CD9FC621941AC0C00D30AC4 /* Supporting Files */,
+				8CD9FC7A1941BB3100D30AC4 /* BarsListTest.m */,
 			);
 			path = BarsTests;
 			sourceTree = "<group>";
@@ -142,6 +167,37 @@
 				8CD9FC641941AC0C00D30AC4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CD9FC711941AC3800D30AC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CD9FC721941AC4C00D30AC4 /* Bar.h */,
+				8CD9FC731941AC4C00D30AC4 /* Bar.m */,
+				8CD9FC751941B5F400D30AC4 /* Bars.h */,
+				8CD9FC761941B5F400D30AC4 /* Bars.m */,
+				8CD9FC781941B9EC00D30AC4 /* barsList.plist */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8CD9FC7C1941BD7D00D30AC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CD9FC7D1941BD9100D30AC4 /* Storyboard.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8CD9FC7F1941BDBC00D30AC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CD9FC801941BDD800D30AC4 /* BarsViewController.h */,
+				8CD9FC811941BDD800D30AC4 /* BarsViewController.m */,
+				8CD9FC831941C13C00D30AC4 /* BarDetailViewController.h */,
+				8CD9FC841941C13C00D30AC4 /* BarDetailViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD9FC791941B9EC00D30AC4 /* barsList.plist in Resources */,
+				8CD9FC7E1941BD9100D30AC4 /* Storyboard.storyboard in Resources */,
+				8CD9FC871941C20400D30AC4 /* README.md in Resources */,
 				8CD9FC4D1941AC0C00D30AC4 /* InfoPlist.strings in Resources */,
 				8CD9FC551941AC0C00D30AC4 /* Images.xcassets in Resources */,
 			);
@@ -239,8 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD9FC741941AC4C00D30AC4 /* Bar.m in Sources */,
+				8CD9FC821941BDD800D30AC4 /* BarsViewController.m in Sources */,
+				8CD9FC771941B5F400D30AC4 /* Bars.m in Sources */,
 				8CD9FC531941AC0C00D30AC4 /* AppDelegate.m in Sources */,
 				8CD9FC4F1941AC0C00D30AC4 /* main.m in Sources */,
+				8CD9FC851941C13C00D30AC4 /* BarDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD9FC681941AC0C00D30AC4 /* BarsTests.m in Sources */,
+				8CD9FC7B1941BB3100D30AC4 /* BarsListTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
