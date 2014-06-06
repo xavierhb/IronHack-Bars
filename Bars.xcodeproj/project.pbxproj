@@ -28,6 +28,9 @@
 		8CD9FC851941C13C00D30AC4 /* BarDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9FC841941C13C00D30AC4 /* BarDetailViewController.m */; };
 		8CD9FC871941C20400D30AC4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9FC861941C20400D30AC4 /* README.md */; };
 		8CD9FC891941CFB800D30AC4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD9FC881941CFB800D30AC4 /* MapKit.framework */; };
+		8CF43A1419420ABF005CCCAF /* ic_starred.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF43A1219420ABF005CCCAF /* ic_starred.png */; };
+		8CF43A1519420ABF005CCCAF /* ic_starredept.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF43A1319420ABF005CCCAF /* ic_starredept.png */; };
+		FDC076E7B7B04A7DA37C2D36 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3059BB92F5404DBC53FFEB /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +41,17 @@
 			remoteGlobalIDString = 8CD9FC3E1941AC0C00D30AC4;
 			remoteInfo = Bars;
 		};
+		8CD9FCA31941FA1F00D30AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD9FC9D1941FA1F00D30AC4 /* StarRatingDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EFF5101C170E6B4A007FE026;
+			remoteInfo = StarRatingDemo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D3059BB92F5404DBC53FFEB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD9FC3F1941AC0C00D30AC4 /* Bars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD9FC421941AC0C00D30AC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8CD9FC441941AC0C00D30AC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,6 +81,27 @@
 		8CD9FC841941C13C00D30AC4 /* BarDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarDetailViewController.m; sourceTree = "<group>"; };
 		8CD9FC861941C20400D30AC4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		8CD9FC881941CFB800D30AC4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8CD9FC8C1941FA1F00D30AC4 /* 5starsgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5starsgray.png; sourceTree = "<group>"; };
+		8CD9FC8D1941FA1F00D30AC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CD9FC8E1941FA1F00D30AC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CD9FC8F1941FA1F00D30AC4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8CD9FC901941FA1F00D30AC4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8CD9FC911941FA1F00D30AC4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8CD9FC931941FA1F00D30AC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CD9FC951941FA1F00D30AC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8CD9FC961941FA1F00D30AC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CD9FC971941FA1F00D30AC4 /* StarRatingDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarRatingDemo-Info.plist"; sourceTree = "<group>"; };
+		8CD9FC981941FA1F00D30AC4 /* StarRatingDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarRatingDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8CD9FC991941FA1F00D30AC4 /* StarRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarRatingView.h; sourceTree = "<group>"; };
+		8CD9FC9A1941FA1F00D30AC4 /* StarRatingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarRatingView.m; sourceTree = "<group>"; };
+		8CD9FC9B1941FA1F00D30AC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CD9FC9C1941FA1F00D30AC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CD9FC9D1941FA1F00D30AC4 /* StarRatingDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = StarRatingDemo.xcodeproj; sourceTree = "<group>"; };
+		8CD9FCA01941FA1F00D30AC4 /* StarRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarRatingView.h; sourceTree = "<group>"; };
+		8CD9FCA11941FA1F00D30AC4 /* StarRatingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarRatingView.m; sourceTree = "<group>"; };
+		8CF43A1219420ABF005CCCAF /* ic_starred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_starred.png; path = ../../../../Desktop/ic_starred.png; sourceTree = "<group>"; };
+		8CF43A1319420ABF005CCCAF /* ic_starredept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_starredept.png; path = ../../../../Desktop/ic_starredept.png; sourceTree = "<group>"; };
+		96FEA27D8D91443C8920E6F9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +113,7 @@
 				8CD9FC451941AC0C00D30AC4 /* CoreGraphics.framework in Frameworks */,
 				8CD9FC471941AC0C00D30AC4 /* UIKit.framework in Frameworks */,
 				8CD9FC431941AC0C00D30AC4 /* Foundation.framework in Frameworks */,
+				FDC076E7B7B04A7DA37C2D36 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +138,7 @@
 				8CD9FC611941AC0C00D30AC4 /* BarsTests */,
 				8CD9FC411941AC0C00D30AC4 /* Frameworks */,
 				8CD9FC401941AC0C00D30AC4 /* Products */,
+				96FEA27D8D91443C8920E6F9 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,11 +154,13 @@
 		8CD9FC411941AC0C00D30AC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8CD9FC8A1941FA1F00D30AC4 /* StarRatingDemo */,
 				8CD9FC881941CFB800D30AC4 /* MapKit.framework */,
 				8CD9FC421941AC0C00D30AC4 /* Foundation.framework */,
 				8CD9FC441941AC0C00D30AC4 /* CoreGraphics.framework */,
 				8CD9FC461941AC0C00D30AC4 /* UIKit.framework */,
 				8CD9FC5B1941AC0C00D30AC4 /* XCTest.framework */,
+				3D3059BB92F5404DBC53FFEB /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +168,7 @@
 		8CD9FC481941AC0C00D30AC4 /* Bars */ = {
 			isa = PBXGroup;
 			children = (
+				8CF43A1019420AB8005CCCAF /* Assets */,
 				8CD9FC7F1941BDBC00D30AC4 /* Controllers */,
 				8CD9FC7C1941BD7D00D30AC4 /* Views */,
 				8CD9FC711941AC3800D30AC4 /* Models */,
@@ -204,6 +241,57 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		8CD9FC8A1941FA1F00D30AC4 /* StarRatingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8CD9FC8B1941FA1F00D30AC4 /* StarRatingDemo */,
+				8CD9FC9D1941FA1F00D30AC4 /* StarRatingDemo.xcodeproj */,
+				8CD9FCA01941FA1F00D30AC4 /* StarRatingView.h */,
+				8CD9FCA11941FA1F00D30AC4 /* StarRatingView.m */,
+			);
+			name = StarRatingDemo;
+			path = "../../../Downloads/StarRatingView-master/StarRatingDemo";
+			sourceTree = "<group>";
+		};
+		8CD9FC8B1941FA1F00D30AC4 /* StarRatingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8CD9FC8C1941FA1F00D30AC4 /* 5starsgray.png */,
+				8CD9FC8D1941FA1F00D30AC4 /* AppDelegate.h */,
+				8CD9FC8E1941FA1F00D30AC4 /* AppDelegate.m */,
+				8CD9FC8F1941FA1F00D30AC4 /* Default-568h@2x.png */,
+				8CD9FC901941FA1F00D30AC4 /* Default.png */,
+				8CD9FC911941FA1F00D30AC4 /* Default@2x.png */,
+				8CD9FC921941FA1F00D30AC4 /* InfoPlist.strings */,
+				8CD9FC941941FA1F00D30AC4 /* MainStoryboard.storyboard */,
+				8CD9FC961941FA1F00D30AC4 /* main.m */,
+				8CD9FC971941FA1F00D30AC4 /* StarRatingDemo-Info.plist */,
+				8CD9FC981941FA1F00D30AC4 /* StarRatingDemo-Prefix.pch */,
+				8CD9FC991941FA1F00D30AC4 /* StarRatingView.h */,
+				8CD9FC9A1941FA1F00D30AC4 /* StarRatingView.m */,
+				8CD9FC9B1941FA1F00D30AC4 /* ViewController.h */,
+				8CD9FC9C1941FA1F00D30AC4 /* ViewController.m */,
+			);
+			path = StarRatingDemo;
+			sourceTree = "<group>";
+		};
+		8CD9FC9E1941FA1F00D30AC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD9FCA41941FA1F00D30AC4 /* StarRatingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CF43A1019420AB8005CCCAF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8CF43A1219420ABF005CCCAF /* ic_starred.png */,
+				8CF43A1319420ABF005CCCAF /* ic_starredept.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CD9FC6B1941AC0C00D30AC4 /* Build configuration list for PBXNativeTarget "Bars" */;
 			buildPhases = (
+				33CD39C035B641EBBEFE157A /* Check Pods Manifest.lock */,
 				8CD9FC3B1941AC0C00D30AC4 /* Sources */,
 				8CD9FC3C1941AC0C00D30AC4 /* Frameworks */,
 				8CD9FC3D1941AC0C00D30AC4 /* Resources */,
+				43B757BC1D0D457BB09B4D37 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +356,12 @@
 			mainGroup = 8CD9FC361941AC0C00D30AC4;
 			productRefGroup = 8CD9FC401941AC0C00D30AC4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8CD9FC9E1941FA1F00D30AC4 /* Products */;
+					ProjectRef = 8CD9FC9D1941FA1F00D30AC4 /* StarRatingDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8CD9FC3E1941AC0C00D30AC4 /* Bars */,
@@ -274,6 +370,16 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8CD9FCA41941FA1F00D30AC4 /* StarRatingDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = StarRatingDemo.app;
+			remoteRef = 8CD9FCA31941FA1F00D30AC4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8CD9FC3D1941AC0C00D30AC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -281,7 +387,9 @@
 			files = (
 				8CD9FC791941B9EC00D30AC4 /* barsList.plist in Resources */,
 				8CD9FC7E1941BD9100D30AC4 /* Storyboard.storyboard in Resources */,
+				8CF43A1519420ABF005CCCAF /* ic_starredept.png in Resources */,
 				8CD9FC871941C20400D30AC4 /* README.md in Resources */,
+				8CF43A1419420ABF005CCCAF /* ic_starred.png in Resources */,
 				8CD9FC4D1941AC0C00D30AC4 /* InfoPlist.strings in Resources */,
 				8CD9FC551941AC0C00D30AC4 /* Images.xcassets in Resources */,
 			);
@@ -296,6 +404,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33CD39C035B641EBBEFE157A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		43B757BC1D0D457BB09B4D37 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8CD9FC3B1941AC0C00D30AC4 /* Sources */ = {
@@ -345,6 +486,22 @@
 				8CD9FC651941AC0C00D30AC4 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CD9FC921941FA1F00D30AC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD9FC931941FA1F00D30AC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CD9FC941941FA1F00D30AC4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD9FC951941FA1F00D30AC4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,6 +579,7 @@
 		};
 		8CD9FC6C1941AC0C00D30AC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96FEA27D8D91443C8920E6F9 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -435,6 +593,7 @@
 		};
 		8CD9FC6D1941AC0C00D30AC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96FEA27D8D91443C8920E6F9 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -505,6 +664,7 @@
 				8CD9FC6D1941AC0C00D30AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CD9FC6E1941AC0C00D30AC4 /* Build configuration list for PBXNativeTarget "BarsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +673,7 @@
 				8CD9FC701941AC0C00D30AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

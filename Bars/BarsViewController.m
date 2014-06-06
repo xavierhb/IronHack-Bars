@@ -8,6 +8,7 @@
 
 #import "BarsViewController.h"
 #import "BarDetailViewController.h"
+#import <StarRatingView.h>
 
 @interface BarsViewController ()
 
@@ -15,21 +16,12 @@
 @property (nonatomic) NSUInteger currentPosition;
 @property (weak, nonatomic) IBOutlet UILabel *nameBarLabel;
 @property (weak, nonatomic) IBOutlet UILabel *addressBarLabel;
-@property (weak, nonatomic) IBOutlet UILabel *ratingBarLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *imageBar;
+@property (strong, nonatomic) IBOutlet StarRatingView *barRating;
 
 @end
 
 @implementation BarsViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
@@ -38,15 +30,18 @@
 	
 	_barsList = [[Bars alloc]initWithFile:@"barsList"];
 	
+	// Manual Way to handle rating
+	CGRect frame = CGRectMake(41, 303, 50, 21);
+	self.barRating = [[StarRatingView alloc] initWithFrame:frame rateEnabled:YES];
+	
+	self.barRating.fullImage = @"ic_starred.png";
+	self.barRating.emptyImage = @"ic_starredept.png";
+	
+	[self.view addSubview:self.barRating];
+		
 	[self showBar:0];
 	
 	
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (Bars *)barsList {
@@ -85,9 +80,7 @@
 		newPosition = --previousPosition;
 		
 	}
-	
-	NSLog(@"%d",newPosition);
-	
+		
 	self.currentPosition = newPosition;
 	
 	[self showBar:self.currentPosition];
@@ -108,9 +101,7 @@
 		newPosition = ++previousPosition;
 		
 	}
-	
-	NSLog(@"%d",newPosition);
-	
+		
 	self.currentPosition = newPosition;
 	
 	[self showBar:self.currentPosition];
@@ -119,19 +110,16 @@
 
 - (void)showBar:(NSUInteger)position{
 	
-	NSDictionary *list = [[self.barsList allBars] objectAtIndex:position];
+	Bar *list = [[self.barsList allBars] objectAtIndex:position];
 	NSString *url = [list valueForKey:@"url"];
 	NSURL *theUrl = [NSURL URLWithString:url];
 	NSData *data = [NSData dataWithContentsOfURL:theUrl];
-	
-	NSLog(@"URL: %@",url);
-	
+			
 	[[self imageBar] setImage:[UIImage imageWithData:data]];
-	
 	
 	_nameBarLabel.text = [list valueForKey:@"name"];
 	_addressBarLabel.text = [list valueForKey:@"address"];
-	_ratingBarLabel.text = [NSString stringWithFormat:@"%@",[list valueForKey:@"rating"]];
+	[self.barRating displayRating:[[list valueForKey:@"rating"] floatValue]];
 	
 }
 

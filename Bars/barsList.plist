@@ -8,7 +8,7 @@
 		<key>address</key>
 		<string>Calle Rios Rosas 43</string>
 		<key>rating</key>
-		<string>4</string>
+		<string>1</string>
 		<key>description</key>
 		<string>buenos cocteles</string>
 		<key>lat</key>
@@ -40,7 +40,7 @@
 		<key>address</key>
 		<string>Calle Alameda 1</string>
 		<key>rating</key>
-		<string>4</string>
+		<string>3</string>
 		<key>description</key>
 		<string>asda</string>
 		<key>lat</key>
@@ -56,7 +56,7 @@
 		<key>address</key>
 		<string>Gran Via 3</string>
 		<key>rating</key>
-		<string>4</string>
+		<string>5</string>
 		<key>description</key>
 		<string>asdasljfas</string>
 		<key>lat</key>
@@ -88,7 +88,7 @@
 		<key>address</key>
 		<string>Calle Rios Rosas 43</string>
 		<key>rating</key>
-		<string>4</string>
+		<string>1</string>
 		<key>description</key>
 		<string>buenos cocteles</string>
 		<key>lat</key>
