@@ -27,6 +27,7 @@
 		8CD9FC821941BDD800D30AC4 /* BarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9FC811941BDD800D30AC4 /* BarsViewController.m */; };
 		8CD9FC851941C13C00D30AC4 /* BarDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9FC841941C13C00D30AC4 /* BarDetailViewController.m */; };
 		8CD9FC871941C20400D30AC4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8CD9FC861941C20400D30AC4 /* README.md */; };
+		8CD9FC891941CFB800D30AC4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD9FC881941CFB800D30AC4 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		8CD9FC831941C13C00D30AC4 /* BarDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarDetailViewController.h; sourceTree = "<group>"; };
 		8CD9FC841941C13C00D30AC4 /* BarDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarDetailViewController.m; sourceTree = "<group>"; };
 		8CD9FC861941C20400D30AC4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		8CD9FC881941CFB800D30AC4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD9FC891941CFB800D30AC4 /* MapKit.framework in Frameworks */,
 				8CD9FC451941AC0C00D30AC4 /* CoreGraphics.framework in Frameworks */,
 				8CD9FC471941AC0C00D30AC4 /* UIKit.framework in Frameworks */,
 				8CD9FC431941AC0C00D30AC4 /* Foundation.framework in Frameworks */,
@@ -117,6 +120,7 @@
 		8CD9FC411941AC0C00D30AC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8CD9FC881941CFB800D30AC4 /* MapKit.framework */,
 				8CD9FC421941AC0C00D30AC4 /* Foundation.framework */,
 				8CD9FC441941AC0C00D30AC4 /* CoreGraphics.framework */,
 				8CD9FC461941AC0C00D30AC4 /* UIKit.framework */,

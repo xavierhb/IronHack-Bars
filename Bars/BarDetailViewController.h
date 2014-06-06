@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Bar.h"
 
 @interface BarDetailViewController : UIViewController
+
+@property (nonatomic,strong) Bar *bar;
 
 @end

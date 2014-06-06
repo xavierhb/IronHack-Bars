@@ -9,6 +9,7 @@
 #import "BarDetailViewController.h"
 
 @interface BarDetailViewController ()
+
 @property (weak, nonatomic) IBOutlet UITextView *descriptionBarLabel;
 
 @end
@@ -28,12 +29,19 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+	
+	_descriptionBarLabel.text = self.bar.description;
+	
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)dismissBarDetail:(id)sender {
+	//[self dismissModalViewControllerAnimated:YES];
+	[self dismissViewControllerAnimated:YES completion:nil]	;
 }
 
 /*

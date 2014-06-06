@@ -70,6 +70,7 @@
 			[bar setDescription:[dict objectForKey:@"description"]];
 			[bar setLat:[[dict objectForKey:@"lat"]floatValue]];
 			[bar setLon:[[dict objectForKey:@"lon"] floatValue]];
+			[bar setUrl:[dict objectForKey:@"url"]];
 			
 			[_barsList addObject:bar];
 			
